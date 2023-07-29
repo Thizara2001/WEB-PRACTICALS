@@ -1,0 +1,16 @@
+Customer --> (Bring in faulty computer)
+Customer --> (Collect repaired computer)
+
+Owner --> (Log fault and customer details)
+Owner --> (Estimate repair completion date)
+Owner --> (Check list of repairs)
+Owner --> (Select jobs for the day)
+Owner --> (Place purchase order with supplier)
+Owner --> (Reschedule job)
+Owner --> (Give invoice to customer)
+Owner --> (Receive payment from customer)
+Owner --> (Check stock of parts)
+Owner --> (Order parts from supplier)
+
+Supplier --> (Receive purchase order)
+Supplier --> (Deliver parts to owner)
